@@ -4,7 +4,7 @@
 apt-get update -y && apt-get upgrade -y
 
 # Install required packages
-apt-get install -y wget unzip python3 python3-venv python3-pip libx11-xcb1 libxcb1 libxcomposite1 libxcursor1 libxdamage1 libxi6 libxtst6 libnss3 libnspr4 libxrandr2 libasound2 libatk1.0-0 libatk-bridge2.0-0 libcups2 libdrm2 libgbm1 libgtk-3-0 libxshmfence1
+apt-get install -y wget unzip python3 python3-venv python3-pip xvfb libx11-xcb1 libxcb1 libxcomposite1 libxcursor1 libxdamage1 libxi6 libxtst6 libnss3 libnspr4 libxrandr2 libasound2 libatk1.0-0 libatk-bridge2.0-0 libcups2 libdrm2 libgbm1 libgtk-3-0 libxshmfence1
 
 # Check if Google Chrome is installed
 if ! command -v google-chrome &> /dev/null; then
