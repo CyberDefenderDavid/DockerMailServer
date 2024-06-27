@@ -23,7 +23,7 @@ python3 -m venv selenium_env
 source selenium_env/bin/activate
 
 # Install Selenium and webdriver-manager
-pip install selenium webdriver-manager beautifulsoup4
+pip install selenium webdriver-manager beautifulsoup4 pillow
 
 # Deactivate the virtual environment
 deactivate
